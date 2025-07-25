@@ -1,0 +1,17 @@
+1. Sum all values in arrary in java 
+  - One dimensional  in java
+  - Multi dimensional in java
+2. Find Max and MIN in an arrary in java
+
+3. reverse an arrary in java
+
+4. Java Array program to find transpose in java
+
+5. Write a java program to sort an arrary of integers in decresing order without using built-in funtion sorting funtions
+
+6. Insert an element in Array
+
+7. Remove specific element from Array
+
+8. Create a progarm that will create an online shopping basket for 
+   you to print the details format with the basket totals using Array

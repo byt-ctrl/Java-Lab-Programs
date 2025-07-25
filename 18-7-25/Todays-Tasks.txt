@@ -1,0 +1,33 @@
+Todays Date ;- 18 July 2025
+
+
+
+1. Write a java program to find the factorial of the number in java
+2. Write  a program to print the multiplication table of given number using loop 
+3. write a program to print the  pattern as given below for given number
+ {
+    1
+    12
+    123
+    1234 wtc as per user input 
+ }
+
+ 4. write a program to create a restaurant billing as describe below.
+ it will show a menu option first allow you to choose action to perform
+
+ i.e ******************************************************
+      *************** Om's Restaurant ******************
+    ********************************************************
+    ***********                                  ***********
+    ***********     1. Menu Card                 ***********
+    ***********     2. Add Other's Item Details  ***********
+    ***********     3. Print Bill                ***********
+    ***********     4. Exit                      ***********
+    ***********                                  ***********
+    ********************************************************
+    ********************************************************
+    ********************************************************
+
+    add all the feautues for CLI interface and remove item ect , We dont need to use functions and all complex things
+   
+    

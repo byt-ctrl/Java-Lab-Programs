@@ -1,0 +1,26 @@
+Write a Program in java to find the result of the following expression (Assume a=10 , b=5). Also follow the assignment operators for the same operations
+
+1 . (a<<2) + (b>>2) 
+2. (a) | (b>>0)
+3. (a+b/100) /10
+4. a&b
+
+
+2. write a java program that prints a table with a list of at least 5 students together with their grades earned (lab points , bonus points , total points obtain , percentage & grade assume total points is 60  ) in the format below 
+
+////////////\\\\\\\\\\\\
+==Students Points==
+\\\\\\\\\\\\////////////
+
+Name LAb bonus total per%Garde
+Table type format
+
+................................
+
+please use the concept of constant , vriable , conditions , opretions etc 
+
+
+ 
+
+3. Write a program to demonstrate all Type casting
+ 

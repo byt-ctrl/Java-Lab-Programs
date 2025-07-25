@@ -1,0 +1,22 @@
+1. Convert Fahrenheit to Celsius in JAVA  .
+2. Convert inches to metres Formula - Divide (inch /39.37) in JAVA.
+3. Sum of Digits in two integers in JAVA .
+4. Convert days to seconds , minutes , hours in JAVA  .
+5. Perform Basic Arithmetic operations using various data types in JAVA.
+6. Compute Square , cube and fourth power in JAVA .
+
+
+
+
+
+
+
+/*-------------------------------------------------------------
+ | Name               : Patel Om Bhavinkumar
+ | Enrolment No.      : 24000112
+ | Section            : A
+ | Date               : [11-07-25]
+ | Program Definition : ~
+ -------------------------------------------------------------*/
+
+
