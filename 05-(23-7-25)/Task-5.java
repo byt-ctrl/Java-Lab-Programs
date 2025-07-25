@@ -11,31 +11,31 @@ class SortArrayDescending
 {
     public static void main(String[] args) 
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
 
         System.out.print("Enter the number of elements in the array : ");
-        int n = scanner.nextInt();
-        int[] array = new int[n];
+        int n=scanner.nextInt();
+        int[] array=new int[n];
 
-        System.out.println("Enter the elements of the array:");
+        System.out.println("Enter the elements of the array :");
 
 
-        for (int a = 0; a < n; a++) 
+        for (int a=0; a<n; a++) 
         {
-            array[a] = scanner.nextInt();
+            array[a]=scanner.nextInt();
         }
 
         // sorting logic
-        for (int a = 0; a < n - 1; a++) 
+        for (int a=0; a<n-1; a++) 
         {
-            for (int b = a + 1; b < n; b++) 
+            for (int b=a+1; b<n; b++) 
             {
                 if (array[a] < array[b]) { // change to > for increasing order
 
                     // swap elements
-                    int temp = array[a];
-                    array[a] = array[b];
-                    array[b] = temp;
+                    int temp=array[a];
+                    array[a]=array[b];
+                    array[b]=temp;
                 }
             }
         }
@@ -50,3 +50,17 @@ class SortArrayDescending
         scanner.close();
     }
 }
+
+// Output Example
+
+/*
+Enter the number of elements in the array : 5
+Enter the elements of the array :
+5
+3
+8
+1
+7
+Sorted array in descending order :
+8 7 5 3 1
+*/

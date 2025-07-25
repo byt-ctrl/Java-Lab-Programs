@@ -16,7 +16,7 @@ class ShoppingBasket
         Scanner sc=new Scanner(System.in);
 
         System.out.print("Enter number of items in the basket: ");
-        int n = sc.nextInt();
+        int n=sc.nextInt();
 
         String[] items=new String[n];
         double[] prices=new double[n];
@@ -40,7 +40,7 @@ class ShoppingBasket
         System.out.printf("%-20s %10s %10s %15s\n", "Item Name", "Price", "Quantity", "Item Total");
         System.out.println("----------------------------------------------------------------------------");
 
-        double total = 0;
+        double total=0;
         for (int a=0; a<n; a++) 
         {
             double itemTotal=prices[a]*quantities[a];
@@ -61,35 +61,24 @@ class ShoppingBasket
 
 
 /* 
-Enter number of items in the basket: 3
+Enter number of items in the basket: 2
 
 Item 1 :
 Enter item name     : apple
-Enter number of items in the basket: 3
-
-
-Item 1 :
-Enter item name     : apple
-Enter item price    : 150
+Enter item price    : 200
 Enter item quantity : 2
 
 Item 2 :
-Enter item name     : banana
-Enter item price    : 3
-Enter item quantity : 50
-
-Item 3 :
 Enter item name     : kiwi
-Enter item price    : 2
-Enter item quantity : 120
+Enter item price    : 150
+Enter item quantity : 3
 
 ============================== Shopping Basket ==============================
 Item Name                 Price   Quantity      Item Total
 ----------------------------------------------------------------------------
-apple                    150.00          2          300.00
-banana                     3.00         50          150.00
-kiwi                       2.00        120          240.00
+apple                    200.00          2          400.00
+kiwi                     150.00          3          450.00
 ----------------------------------------------------------------------------
-Total Basket Amount:                                690.00
-============================================================================= 
+Total Basket Amount:                                850.00
+=============================================================================
 */

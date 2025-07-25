@@ -1,6 +1,6 @@
 1. Sum all values in arrary in java 
-  - One dimensional  in java
-  - Multi dimensional in java
+  A - One dimensional  in java
+  B - Multi dimensional in java
 2. Find Max and MIN in an arrary in java
 
 3. reverse an arrary in java

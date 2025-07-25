@@ -1,0 +1,21 @@
+9. Write java program to display common elements in two array
+
+10. Write java program to display array is palidrome or not
+
+11. Write java program to check all the possible datatypes output formatting using the printf()
+
+12. create a following arrays to print each student marksheet 
+
+MAIN CRITERIA's 
+  -> USer input , and user input of how many students also at starting etc
+  -> enrollemnt no , student name ,  its result , studentdescriptions like subject description for english maths etc , we have to make in all things tabular formatting,
+tabular marksheetwise , 
+
+  ->Name of university
+  ->grades (A (above 80) , A- (70 above) ,A+ (90 above),B (60 above ),B+ (70 above),B- (50 above ),C for pass i.e 40 above ) , Pass or Fail criteria etc
+  ->Date of result etc 
+  -> Proper formatting of tabular marksheet
+  -> Option to view individual marksheet 
+
+
+Final apporch (make code using arrays (1D and 2D array) for storing details , and make porper tabular format for printing all the details)

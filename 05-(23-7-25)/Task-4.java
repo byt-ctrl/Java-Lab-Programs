@@ -15,36 +15,36 @@ class ArrayTranspose
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of rows : ");
-        int rows = sc.nextInt();
+        int rows=sc.nextInt();
         System.out.print("Enter number of columns : ");
-        int cols = sc.nextInt();
+        int cols=sc.nextInt();
 
-        int[][] original = new int[rows][cols];
-        int[][] transpose = new int[cols][rows];
+        int[][] original=new int[rows][cols];
+        int[][] transpose=new int[cols][rows];
 
         System.out.println("Enter elements of the array :");
 
-        for (int a = 0; a < rows; a++) 
+        for (int a=0; a<rows; a++) 
         {
-            for (int b = 0; b < cols; b++) 
+            for (int b=0; b<cols; b++) 
             {
-                original[a][b] = sc.nextInt();
+                original[a][b]=sc.nextInt();
             }
         }
 
         // transpose logic
-        for (int a = 0; a < rows; a++) 
+        for (int a=0; a<rows; a++) 
         {
-            for (int b = 0; b < cols; b++) 
+            for (int b=0; b<cols; b++) 
             {
-                transpose[b][a] = original[a][b];
+                transpose[b][a]=original[a][b];
             }
         }
 
         System.out.println("Transposed array :");
-        for (int a = 0; a < cols; a++) 
+        for (int a=0; a<cols; a++) 
         {
-            for (int b = 0; b < rows; b++) 
+            for (int b=0; b<rows; b++) 
             {
                 System.out.print(transpose[a][b] + " ");
             }
@@ -58,6 +58,7 @@ class ArrayTranspose
 // Output Example
 
 /*
+
 Enter number of rows : 2
 Enter number of columns : 3
 Enter elements of the array :
@@ -71,4 +72,5 @@ Transposed array :
 1 4
 2 5
 3 6
+
 */

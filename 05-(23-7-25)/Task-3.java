@@ -14,21 +14,21 @@ class ReverseArray
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        System.out.print("Enter number of elements : ");
+        int n=sc.nextInt();
+        int[] arr=new int[n];
 
-        System.out.println("Enter " + n + " elements:");
+        System.out.println("Enter " + n + " elements :");
 
 
-        for (int a = 0; a < n; a++) 
+        for (int a=0; a<n; a++) 
         {
-            arr[a] = sc.nextInt();
+            arr[a]=sc.nextInt();
         }
 
         System.out.println("Reversed array :");
 
-        for (int a = n - 1; a >= 0; a--) 
+        for (int a=n-1; a>=0; a--) 
         {
             System.out.print(arr[a] + ",");
            
@@ -43,8 +43,8 @@ class ReverseArray
 // Output Example
 
 /* 
-Enter number of elements: 5
-Enter 5 elements:
+Enter number of elements : 5
+Enter 5 elements :
 8
 7
 4

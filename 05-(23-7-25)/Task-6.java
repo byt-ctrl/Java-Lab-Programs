@@ -37,3 +37,21 @@ class InsertElementArray
         sc.close();
     }
 }
+
+// Output Example
+
+/*
+
+Enter array size : 5
+Enter 5 elements :
+2
+3
+4
+5
+6
+Enter element to insert : 7
+Enter position (0 to 5) : 3
+Array after insertion :
+2 3 4 7 5 6  
+
+*/

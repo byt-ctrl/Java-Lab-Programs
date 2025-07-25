@@ -15,30 +15,30 @@ class ArrayMinMax
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of elements : ");
-        int n = sc.nextInt();
-        int[] numbers = new int[n];
+        int n=sc.nextInt();
+        int[] numbers=new int[n];
 
         System.out.println("Enter " + n + " elements :");
 
-        for (int a = 0; a < n; a++) 
+        for (int a=0; a<n; a++) 
         {
-            numbers[a] = sc.nextInt();
+            numbers[a]=sc.nextInt();
         }
 
-        int min = numbers[0];
-        int max = numbers[0];
+        int min=numbers[0];
+        int max=numbers[0];
 
 
 /* Main minimum , maximum logic */
-        for (int a = 1; a < numbers.length; a++) 
+        for (int a=1; a<numbers.length; a++) 
         {
-            if (numbers[a] < min) 
+            if (numbers[a]<min) 
             {
-                min = numbers[a];
+                min=numbers[a];
             }
-            if (numbers[a] > max) 
+            if (numbers[a]>max) 
             {
-                max = numbers[a];
+                max=numbers[a];
             }
         }
 

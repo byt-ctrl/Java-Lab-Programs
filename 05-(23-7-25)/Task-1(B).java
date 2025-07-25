@@ -12,35 +12,35 @@ class MultiDimensionalArraySum
 {
     public static void main(String[] args)  
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
 
         System.out.print("Enter the number of rows in the array : ");
-        int rows = scanner.nextInt();
+        int rows=scanner.nextInt();
         System.out.print("Enter the number of columns in the array : ");
-        int cols = scanner.nextInt();
-        
-        int[][] array = new int[rows][cols];
+        int cols=scanner.nextInt();
+
+        int[][] array=new int[rows][cols];
         System.out.println("Enter the elements of the array :");
 
-        for (int a = 0; a < rows; a++) 
+        for (int a=0; a<rows; a++) 
         {
-            for (int b = 0; b < cols; b++) 
+            for (int b=0; b<cols; b++) 
             {
-                array[a][b] = scanner.nextInt();
+                array[a][b]=scanner.nextInt();
             }
         }
 
-        int sum = 0;
-        
-        for (int a = 0; a < rows; a++) 
+        int sum=0;
+
+        for (int a=0; a<rows; a++) 
         {
-            for (int b = 0; b < cols; b++) 
+            for (int b=0; b<cols; b++) 
             {
-                sum += array[a][b];
+                sum+=array[a][b];
             }
         }
         
-        System.out.println("The sum of the array elements is: " + sum);
+        System.out.println("The sum of the array elements is : " + sum);
     }
 }
 
