@@ -13,40 +13,83 @@ class ShoppingBasket
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
 
-        System.out.print("Enter number of items in the basket : ");
+        System.out.print("Enter number of items in the basket: ");
+        int n = sc.nextInt();
 
-        int n=sc.nextInt();
         String[] items=new String[n];
         double[] prices=new double[n];
         int[] quantities=new int[n];
 
         // input item details
-        for (int a = 0; a < n; a++) 
+        for (int a=0; a<n; a++) 
         {
-            System.out.print("Enter item name : ");
+            System.out.printf("\nItem %d :\n", a + 1);
+            System.out.print("Enter item name     : ");
             items[a]=sc.next();
-            System.out.print("Enter item price : ");
+            System.out.print("Enter item price    : ");
             prices[a]=sc.nextDouble();
             System.out.print("Enter item quantity : ");
             quantities[a]=sc.nextInt();
         }
 
-        // print basket details
-        System.out.println("\nShopping Basket Details :");
-        double total=0;
+        // print's basket details in table format
 
+        System.out.println("\n============================== Shopping Basket ==============================");
+        System.out.printf("%-20s %10s %10s %15s\n", "Item Name", "Price", "Quantity", "Item Total");
+        System.out.println("----------------------------------------------------------------------------");
+
+        double total = 0;
         for (int a=0; a<n; a++) 
         {
-            double itemTotal = prices[a] * quantities[a];
-            System.out.printf("%s - Price : %.2f, Quantity : %d, Total : %.2f\n", items[a], prices[a], quantities[a], itemTotal);
-            total += itemTotal;
+            double itemTotal=prices[a]*quantities[a];
+            System.out.printf("%-20s %10.2f %10d %15.2f\n",items[a],prices[a],quantities[a],itemTotal);
+            total+=itemTotal;
         }
-        System.out.printf("\nTotal Basket Amount : %.2f\n",total);
+
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.printf("%-42s %15.2f\n", "Total Basket Amount:",total);
+        System.out.println("=============================================================================");
 
         sc.close();
     }
 }
 
 
+// Output Example
+
+
+/* 
+Enter number of items in the basket: 3
+
+Item 1 :
+Enter item name     : apple
+Enter number of items in the basket: 3
+
+
+Item 1 :
+Enter item name     : apple
+Enter item price    : 150
+Enter item quantity : 2
+
+Item 2 :
+Enter item name     : banana
+Enter item price    : 3
+Enter item quantity : 50
+
+Item 3 :
+Enter item name     : kiwi
+Enter item price    : 2
+Enter item quantity : 120
+
+============================== Shopping Basket ==============================
+Item Name                 Price   Quantity      Item Total
+----------------------------------------------------------------------------
+apple                    150.00          2          300.00
+banana                     3.00         50          150.00
+kiwi                       2.00        120          240.00
+----------------------------------------------------------------------------
+Total Basket Amount:                                690.00
+============================================================================= 
+*/
