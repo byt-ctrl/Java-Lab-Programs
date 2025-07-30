@@ -1,0 +1,15 @@
+1. Write a program to define a Circle class in java and method to calculate the area (area = PI*R*R) 
+
+2. Write a programto calculate the simple interest (SI = Principle * Rate of interest * Tenure /100) using method
+
+3. Write a progarm to calculate the area and perimeter of Square and rectangle using method (Seprerate Classes , 2 classes for rec and square and third for main method)
+    (Reactangle Area = L * B and Perimeter = 2(L+B) )
+    (Square Area = L*L and perimeter = 4*L )
+
+4. Write a Program to demonstrate the bank funtionalities such as create account , deposits amount , withdraw amount, display balance , simple interest for 2 yrs 
+    Note :- Please use constructor in java
+
+5. Write a program using constructor to calculate volume of Box . Following methods should be part of your program
+    -> Mehtod to retrive the box dimensions values .
+    -> Method to calculate volume of box .
+    -> Method to check if box share is cube or not 
