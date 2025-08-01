@@ -26,7 +26,7 @@ class Box
 
     void displayDimensions() 
     {
-        System.out.printf("\nDimensions of the box : Length=%.2f, Breadth=%.2f, Height=%.2f\n",length,breadth, height);
+        System.out.printf("\nDimensions of the box : Length=%.2f , Breadth=%.2f , Height=%.2f\n",length,breadth,height);
     }
 
     double calculateVolume() 
@@ -44,20 +44,20 @@ class BoxVolumeCalculator
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         
         System.out.print("Enter length of the box : ");
-        double l = sc.nextDouble();
+        double l=sc.nextDouble();
         System.out.print("Enter breadth of the box : ");
-        double b = sc.nextDouble();
+        double b=sc.nextDouble();
         System.out.print("Enter height of the box : ");
-        double h = sc.nextDouble();
+        double h=sc.nextDouble();
 
-        Box box = new Box(l, b, h);
-        
+        Box box=new Box(l,b,h);
+
         box.displayDimensions();
         
-        double volume = box.calculateVolume();
+        double volume=box.calculateVolume();
         System.out.printf("Volume of the box : %.2f\n",volume);
         
         if (box.isCube()) 
@@ -71,3 +71,27 @@ class BoxVolumeCalculator
         sc.close();
     }
 }
+
+// output example of two cases
+
+/*
+
+Enter length of the box : 5
+Enter breadth of the box : 5
+Enter height of the box : 5
+
+Dimensions of the box : Length=5.00 , Breadth=5.00 , Height=5.00
+Volume of the box : 125.00
+The box is a cube.
+
+--------------------------------------------------------------------
+
+Enter length of the box : 5
+Enter breadth of the box : 4
+Enter height of the box : 3 
+
+Dimensions of the box : Length=5.00 , Breadth=4.00 , Height=3.00
+Volume of the box : 60.00
+The box is not a cube.
+
+*/

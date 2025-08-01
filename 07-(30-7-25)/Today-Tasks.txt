@@ -13,3 +13,5 @@
     -> Mehtod to retrive the box dimensions values .
     -> Method to calculate volume of box .
     -> Method to check if box share is cube or not 
+
+6. Repeat program 1,2 and 3 using the constructor

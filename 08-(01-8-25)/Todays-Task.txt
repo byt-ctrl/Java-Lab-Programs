@@ -1,0 +1,16 @@
+7. Static variables and instance variables
+   -> Create a student class with instance variables i.e Student name , Roll Number & DOB ,
+   and static variable i.e collegeName.
+   -> Create a static method to change the college name and roll number. Observe how chnages to it affect all instances.
+   -> Include a static int counter that keeps track of the number of the Student objects created.
+   -> Initialize counter in a static block and increment it in te consructor.
+   -> Display the coubter value in the main method.
+   -> Write a non static method to access the static varibale into the same . ( must be user input )
+
+
+8. Create a class person with private instance variables name and age . Implement public getter and setter methods for these variables . Demonstrate how to access
+ | and modify these varibles from another class . Add few more variables into the same with the diffrent access specifier and test the results.( must be user input )
+
+9. Create a class Shape and having the method overloading concept (ShapeArea method) which will calculate the area for the diffrent shapes i.e . Circle, Square , Rectangle ( must be user input )
+
+10. Create a class Vehicle and perform the contructor overloading to display a vehicle type on screen based on the input. ( must be user input )

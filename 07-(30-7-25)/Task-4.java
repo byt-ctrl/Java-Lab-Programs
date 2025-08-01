@@ -25,7 +25,7 @@ class BankAccount
 
     void deposit(double amount) 
     {
-        balance += amount;
+        balance+=amount;
         System.out.printf("Deposited : %.2f\n", amount);
         System.out.printf("Balance after deposit: %.2f\n", balance);
     }
@@ -36,7 +36,7 @@ class BankAccount
         {
             balance -= amount;
             System.out.printf("Withdrawn : %.2f\n", amount);
-            System.out.printf("Balance after withdrawal: %.2f\n",balance);
+            System.out.printf("Balance after withdrawal : %.2f\n",balance);
         } else 
         {
             System.out.println("Insufficient balance !!!");
@@ -45,7 +45,7 @@ class BankAccount
 
     void displayBalance() 
     {
-        System.out.printf("Current Balance: %.2f\n", balance);
+        System.out.printf("Current Balance : %.2f\n", balance);
     }
 
     void simpleInterest(double rate) 
@@ -108,3 +108,71 @@ class DemoBank
         } while(choice != 5);
     }
 }
+
+// output example of all five functionalities
+
+/*
+
+--------- Welcome to Simple Bank ---------
+Enter your name : Om Patel
+Enter initial balance : 50000
+Account Created Successfully!
+Account Holder : Om Patel
+Initial Balance : 50000.00
+
+
+Choose an option :
+1. Deposit Amount
+2. Withdraw Amount
+3. Display Balance
+4. Calculate Simple Interest for 2 years
+5. Exit
+Enter your choice : 1
+Enter deposit amount : 10000
+Deposited : 10000.00
+Balance after deposit: 60000.00
+
+
+Choose an option :
+1. Deposit Amount
+2. Withdraw Amount
+3. Display Balance
+4. Calculate Simple Interest for 2 years
+5. Exit
+Enter your choice : 2
+Enter withdraw amount : 20000
+Withdrawn : 20000.00
+Balance after withdrawal: 40000.00
+
+
+Choose an option :
+1. Deposit Amount
+2. Withdraw Amount
+3. Display Balance
+4. Calculate Simple Interest for 2 years
+5. Exit
+Enter your choice : 3
+Current Balance: 40000.00
+
+
+Choose an option :
+1. Deposit Amount
+2. Withdraw Amount
+3. Display Balance
+4. Calculate Simple Interest for 2 years
+5. Exit
+Enter your choice : 4
+Enter interest rate : 5
+Simple Interest for 2 years at 5.00% : 4000.00
+
+
+Choose an option :
+1. Deposit Amount
+2. Withdraw Amount
+3. Display Balance
+4. Calculate Simple Interest for 2 years
+5. Exit
+Enter your choice : 5
+--------- Thank you for using Simple Bank ---------
+
+*/
