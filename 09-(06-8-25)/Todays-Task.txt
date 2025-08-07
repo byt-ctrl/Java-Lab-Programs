@@ -1,0 +1,4 @@
+1. Implement single inheritance in Java.
+2.Implement multilevel inheritance in Java.
+3.Implement hierarchical inheritance in Java.
+4.Implement hybrid inheritance in Java using interfaces.
