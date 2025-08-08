@@ -1,0 +1,21 @@
+1. Create a class "Vehicle" with a method "start()" that prints "Vehicle Started".
+   Create a subclass "Car" that extends "Vehicle" and overrides the "start()" method to print "Car Started"
+   Create an object of the "Vehicle" class and call the "Start()" method .
+   Create an object of "Car" class and call the "start()" method . 
+
+2. (Use all public , private , Protected and calling them)
+   Create a class "communicationMethod" with the method sendMessage().
+   Create a subclass by extending "communicationMethod" , "Digital" and "Physical" and override the sendMessage() method.
+   Create a subclass "VoiceMessage" , "VideoMessage" , and "TextMessage" by inheriting class Digital also override the method sendMessage().
+   Create a subclass "byPost" and override method sendMessage().
+
+3   Create a class "BankAccount" with fields "accountNumber", "balance", and "interestRate" and a method "deposit()" that adds an amount to the balance.
+    Create a subclass "SavingsAccount" that extends "BankAccount" and adds a field "minimumBalance" and a method "withdraw()" that subtracts an amount from the balance.
+    Create an object of the "BankAccount" class and call the "deposit()" method.    
+    Create an object of the "SavingsAccount" class and call the "deposit()" and "withdraw()" methods.
+
+4   Create a class "Person" with fields "name" and "age" and a method "display()" that prints the name and age of the person.
+    Create a subclass "Employee" that extends "Person" and adds a field "salary" and a method "display()" that prints the name, age, and salary of the employee.
+    Create a subclass "Manager" that extends "Employee" and adds a field "department" and a method "display()" that prints the name, age, salary, and department of the manager.
+    Create an object of the "Person" class and call the "display()" method.
+    Create an object of the "Employee" class and call the "display()" method.
