@@ -1,0 +1,37 @@
+1. Develop an abstract class Employee with abstract methods calculateSalary() and displayInfo(). 
+   Implement subclasses Manager and Programmer that extend Employee and provide their own salary calculation and information display logic. (user input)
+
+2. An abstract class called Marks is needed to calculate the percentage of marks earned by students A in three subjects (with each subject out of 100) and student B in four subjects (with each subject out of 100). 
+   This class must contain the abstract method getPercentage, which two other classes, “A” and “B,” will inherit. The method getPercentage, which provides the percentage of students, is shared by classes “A” and “B.”
+   The constructor of class ‘A’ will accept the marks obtained in three subjects as its parameters and the constructor of class ‘B’ will accept the marks obtained in four subjects as its parameters.
+   To test the implementation, objects for both the classes need to be created and the percentage of marks for each student should be printed. (user input)
+
+3. Write a Java program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). 
+   Create subclasses: SavingsAccount and CurrentAccount that extend the BankAccount class 
+   and implement the respective methods to handle deposits and withdrawals for each account type.
+
+4. Extend Bank class and design a payment gateway system as mentioned below
+   Abstract class: Paymentposter
+   Common methods: validatePayment() and recordTransaction()
+   Abstract methods: chargeCustomer() and refundCustomer()
+
+   Subclasses :
+
+   CreditCardPayment: Implements chargeCustomer() and refundCustomer()
+   DebitCardPayment: Implements chargeCustomer() and refundCustomer()
+   UPIPayment: Implements chargeCustomer() and refundCustomer()
+
+5. Design a Game development framework using abstract class
+
+   Abstract class: GameObject
+   Common attributes: xPosition, yPosition, sprite (image representation).
+   Common methods: move(), isVisible(), setSprite().
+   Abstract methods: update(), render().
+
+   Subclasses:
+   PlayerCharacter: Implements update() based on player input,
+   implements render() by drawing the player sprite.
+   Enemy: Implements update() with attack logic,
+   implements render() by drawing the enemy sprite.
+   CollectibleItem: Implements update() to check for player collision,
+   implements render() by drawing the item sprite.
