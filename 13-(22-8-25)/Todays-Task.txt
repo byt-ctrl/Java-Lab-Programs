@@ -1,0 +1,17 @@
+1. ATM Simulation System
+    Developed an ATM simulation system. It will provide features of all the banking options
+
+    > Display balance
+    > Generate Pin
+    > Change Pin
+    > Withdraw Money (Select Preferred notes currency)
+    > Deposit Money (Select the currency notes)
+    > Transfer to another account
+    > Update Final balance
+    > Build all the possible validations i.e. low balance check, wrong pin check etc.
+    > Any other features that you can add
+
+    and so on..
+
+
+2. Flight booking system (discuss in details and explain what features can be used).

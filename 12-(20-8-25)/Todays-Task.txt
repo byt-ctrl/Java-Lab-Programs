@@ -1,0 +1,12 @@
+6. Write a program using an interface and core java options to design a utility like “scoreboard” (example cricbuzz mobile app). 
+   It is having the method to create teams, Create team members, playGame, displayScore, updateScore, individual score, details score and Winnerteam etc. 
+   Scoreboard should fit for multiple sports (i.e. Cricket, Football, Badminton etc).
+
+   Note :- for playGame options you can use random function to generate the points. Sample given below.
+
+   import java.util.Random;
+   Random r= new Random();
+   int r1 = r.nextInt(1000); // Generate a random integer number from 0-999
+
+   We have to make CLI Mode
+   
