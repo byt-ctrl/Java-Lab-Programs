@@ -1,3 +1,13 @@
+/*-------------------------------------------------------------
+ | Name               : Patel Om Bhavinkumar
+ | Enrolment No.      : 24000112
+ | Section            : A
+ | Date               : [29-08-25]
+ | Program Definition : 2. Write a Java program using AWT to create a GUI for performing basic arithmetic operations 
+ |                         (Addition, Subtraction, Multiplication, Division) between two numbers entered by the user. 
+ |                         Display the result in the GUI.
+ -------------------------------------------------------------*/
+
 import java.awt.*;
 import java.awt.event.*;
 

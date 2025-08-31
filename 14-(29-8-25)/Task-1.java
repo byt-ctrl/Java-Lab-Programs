@@ -1,3 +1,13 @@
+/*-------------------------------------------------------------
+ | Name               : Patel Om Bhavinkumar
+ | Enrolment No.      : 24000112
+ | Section            : A
+ | Date               : [29-08-25]
+ | Program Definition : 1. Write a Java program using AWT to create a simple GUI with a button labeled "Hello World". 
+ |                         When the button is clicked, it should display a message dialog or print "Hello World" to the console.
+ -------------------------------------------------------------*/
+
+
 import java.awt.*;
 import java.awt.event.*;
 
