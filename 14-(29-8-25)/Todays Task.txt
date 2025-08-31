@@ -1,0 +1,6 @@
+1. Write a Java program using AWT to create a simple GUI with a button labeled "Hello World". 
+   When the button is clicked, it should display a message dialog or print "Hello World" to the console.
+
+2. Write a Java program using AWT to create a GUI for performing basic arithmetic operations 
+   (Addition, Subtraction, Multiplication, Division) between two numbers entered by the user. 
+   Display the result in the GUI.
