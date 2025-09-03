@@ -1,0 +1,3 @@
+1. Create a Java AWT calculator with GridLayout and BorderLayout, supporting basic arithmetic, square root, power, percentage, inverse, and sign toggle, with Clear, Clear Entry, and Backspace buttons.
+	Use a TextField with AWT event listeners, ensuring a clean UI with proper fonts, spacing, and error handling for floating-point inputs. 
+	Add keyboard input and history panel. Provide commented source code and compilation instructions.
